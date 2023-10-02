@@ -1,0 +1,31 @@
+
+#btnEntrar{
+    border-color: blueviolet;
+    color: blueviolet;
+}
+
+#btnEntrar:hover{
+    background: blueviolet;
+    color: rgb(255, 255, 255);
+}
+
+#form{
+    background: rgb(238, 237, 237);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+#input{
+    margin-left: 8vw;
+}
+
+.marcador{
+    background: rgba(27, 201, 27, 0.479);
+    border: solid 1px rgb(54, 214, 54);
+}
+
+.marcador1{
+    background: rgba(235, 34, 34, 0.753);
+    border: solid 1px red;
+}

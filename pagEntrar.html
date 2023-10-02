@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iato - Entrar</title>
+    <link rel="stylesheet" href="CSS/pagEntrar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container" id="cont">
+        <div class="row">
+
+            <div class="col-sm-6 offset-sm-3" style="text-align: center;">
+                <br><br><br>
+                <h1>Seja bem vindo(a) a <span style="color: blueviolet;">Iato</span>!</h1><br>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-6 offset-sm-3">
+                <form id="form" class="">
+                     
+                    <div class="row justify-content-center">
+                    <div class="col-sm-8">
+                        <h1>Login</h1><br>
+                        <label for="exampleInputEmail1" class="form-label">Insira seu Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-sm-8"><br>
+                        <label for="inputPassword6" class="col-form-label">Insira sua Senha</label>
+                      <div class="col-auto">
+                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline"><br><br>
+                      </div>
+                      </div>
+                    </div>
+
+                    <p id="msg" style="color: red;"></p>
+                    <button type="button" class="btn btn-outline-primary" id="btnEntrar">Entrar</button><br><br>
+                    <p>Não tem uma conta? <a href="cadastro.html">Crie uma</a>.</p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+<script src="JS/pagEntrar.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
